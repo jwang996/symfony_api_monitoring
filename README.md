@@ -75,6 +75,12 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
 -subj "/C=DE/ST=NRW/L=Duesseldorf/O=Dev/CN=localhost"`
 ```
 
+## After you create the certs for nginx:
+
+Simply run `docker compose up -d`, then go to Grafana dashboard `localhost:3005` with default user: **admin** with password: **admin**, then you will see the graphs.
+
+The k6 load script is set to run 20 min. You can either monitor the status in real-time or just wait 20 min to see the results.
+
 ## Symfony Instrumentation (ArtprimaPrometheusMetricsBundle)
 
 I use **ArtprimaPrometheusMetricsBundle** to expose metrics from Symfony. Then Prometheus scrapes `/metrics/prometheus`.
