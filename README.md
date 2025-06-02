@@ -1,4 +1,4 @@
-# symfony_api_monitoring
+# Symfony API Monitoring
 
 This project demonstrates how to instrument a php symfony backend service with Prometheus for metrics and unified in Grafana.
 
