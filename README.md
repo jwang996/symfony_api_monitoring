@@ -204,7 +204,7 @@ services:
 
 Modern observability stacks are incredibly powerful and ever-evolving. I’m excited to continue learning about Prometheus, Grafana, Jaeger, OpenTelemetry, and other tools to build even more robust systems.
 
-’ve enjoyed working with PHP and Symfony because of its elegant structure and rapid development capabilities, but I also realize that modern applications need robust observability; therefore, I want to integrate a full monitoring stack (Prometheus, Grafana, etc) to gain real-time insights and build more resilient systems.
+I’ve enjoyed working with PHP and Symfony because of its elegant structure and rapid development capabilities, but I also realize that modern applications need robust observability; therefore, I want to integrate a full monitoring stack (Prometheus, Grafana, etc) to gain real-time insights and build more resilient systems.
 ## Further Reading
 
 * [Prometheus](https://prometheus.io/docs/)
